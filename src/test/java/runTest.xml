@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example">
+    <parameter name="browserType" value="chrome" />
+    <parameter name="appURL"
+               value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" />
+
+    <test name="sample test">
+        <classes>
+            <class name="SignInTest">
+            </class>
+        </classes>
+    </test>
+</suite>
